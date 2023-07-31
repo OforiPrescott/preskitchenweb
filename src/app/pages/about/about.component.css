@@ -1,0 +1,60 @@
+/* about.component.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+p:first-of-type {
+    margin-top: 0;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Highlighted section */
+.container p:nth-of-type(3) {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* Community section */
+.container p:nth-of-type(4) {
+    border-left: 4px solid #ff6b6b;
+    padding-left: 20px;
+}
+
+/* Meal Planner section */
+.container p:nth-of-type(5) {
+    border-left: 4px solid #57bb8a;
+    padding-left: 20px;
+}
+
+/* Conclusion section */
+.container p:last-of-type {
+    font-style: italic;
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+}
